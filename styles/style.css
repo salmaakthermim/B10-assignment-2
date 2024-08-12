@@ -114,7 +114,7 @@
 .card-1{
     width: 150px;
     height: 70px;
-    border: 2px solid aliceblue;
+    /* border: 2px solid aliceblue; */
     border-radius: 8px;
     text-align: center;
     gap: 20px;
@@ -132,6 +132,30 @@
     margin-left: 250px;
     
     margin-top: -350px;
+}
+
+
+/* habits sections styles  */
+
+.habits-contan {
+    width: 600px;
+    height: 120px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.habit-images{
+    width: 900px;
+    height: 270px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+.habit-images img{
+   border-radius: 100px;
+
 }
 
 
@@ -175,7 +199,8 @@
         margin-right: 100px;
     }
     .banner-image{
-        /* border: 2px solid tomato; */
+        border: 2px solid tomato;
+        margin-bottom: 80px;
         margin: 0;
         width: 370px;
     }
@@ -188,5 +213,24 @@
        margin-left: 160px;
        margin-top: -400px;
     }
-    
+
+    /* habits sections  */
+    .habit-images{
+       /* margin-top: 500px; */
+       flex-direction: column;
+       width: 350px;
+    height: 1170px;
+    align-items: center;
+        border: 2px solid aqua
+        ;
+    }
+
+    .habits-contan {
+        margin-top: 500px;
+        width: 350px;
+        
+        border: 2px solid aquamarine;
+
+    }
+   
 }
