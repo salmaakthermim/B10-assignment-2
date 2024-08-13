@@ -158,6 +158,61 @@
 
 }
 
+/* ran sections styles  */
+.ran-section{
+    width: 900px;
+    height: 300px;
+    /* border: 2px solid red; */
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 70px;
+}
+.ran-contan{
+width: 400px;
+height: 290px;
+/* border: 2px solid blue; */
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.ran-contan h1{
+    font-size: 58px;
+}
+.ran-contan p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.ran-contan button{
+    width: 180px;
+    height: 50px;
+    border-radius: 28px;
+     background-color: red;
+     color: white;
+     border: none;
+     margin-top: 20px;
+     margin-right: 200px;
+
+}
+
+
+.img-contan{
+    width: 360px;
+    height: 300px;
+    /* border: 2px solid bisque; */
+    margin-left: 150px;
+
+}
+.img-contan img{
+    width: 340px;
+    height: 280px;
+    border-radius: 28px;
+    object-fit: none;
+    object-position: 66% 30%;
+}
+
 
 
 
@@ -199,7 +254,7 @@
         margin-right: 100px;
     }
     .banner-image{
-        border: 2px solid tomato;
+        /* border: 2px solid tomato; */
         margin-bottom: 80px;
         margin: 0;
         width: 370px;
@@ -217,20 +272,33 @@
     /* habits sections  */
     .habit-images{
        /* margin-top: 500px; */
-       flex-direction: column;
-       width: 350px;
+    flex-direction: column;
+    width: 350px;
     height: 1170px;
     align-items: center;
-        border: 2px solid aqua
-        ;
+    /* border: 2px solid aqua ; */
     }
 
     .habits-contan {
         margin-top: 500px;
         width: 350px;
         
-        border: 2px solid aquamarine;
 
+    }
+    /* ran sections */
+    .ran-section{
+        flex-direction: column;
+        width: 350px;
+        height: 650px;
+        gap: 30px;
+        
+    }
+    .img-contan{
+       margin-left: 0px;
+       
+    }
+    .ran-contan, .img-contan{
+        width: 350px;
     }
    
 }
