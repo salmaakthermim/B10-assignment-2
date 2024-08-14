@@ -252,7 +252,7 @@ td, th{
     width: 570px;
     height: 386px;
     /* border: 2px solid red; */
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 100px;
 }
 .form-text{
@@ -298,6 +298,48 @@ td, th{
      margin-top: 20px;
 }
 
+/* meet sections styles */
+.meet{
+    width: 900px;
+    height: 680px;
+    /* border: 2px solid aquamarine; */
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.meet-text{
+    width: 600px;
+    height: 120px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: center;
+}
+.meet-text h1{
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+.meet-images{
+    width: 900px;
+    height: 500px;
+    /* border: 2px solid blue; */
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.image img{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+
+}
+.image h4{
+    margin-top: -50px;
+}
+.image p{
+    color: #ffffffba;
+}
 
 
 
@@ -383,6 +425,7 @@ td, th{
     .ran-contan, .img-contan{
         width: 350px;
     }
+    /* calculator sections */
 
     .BML-calculator{
         width: 350px;
@@ -407,5 +450,22 @@ td, th{
         width: 120%;
         margin-left: ;
     }
+    /* Meet sections  */
+    .meet-text{
+        width: 350px;
+        margin: 10px;
+    }
+    .meet-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet{
+        width: 350px;
+        height: 1700px;
+    }
+    .meet-images{
+        width: 350px;
+        height: 1520px;
+    }
+  
    
 }
