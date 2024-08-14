@@ -33,7 +33,7 @@
     /* border: 2px solid tomato; */
 }
 .nav-title{
-    color: red;
+    color: tomato;
     font-size: 30px;
     margin-top: -5px;
 }
@@ -341,6 +341,62 @@ td, th{
     color: #ffffffba;
 }
 
+/* footers srction */
+.footer{
+    height: 400px;
+    /* border: 2px solid orange; */
+    background-color: rgb(34, 34, 34);
+    margin-top: 50px;
+}
+.footer-section{
+    width: 900px;
+    height: 240px;
+    /* border: 2px solid rebeccapurple; */
+    margin: 0 auto;
+    margin-top: 66px;
+    display: flex;
+    gap: 70px;
+}
+.first-div{
+    width: 400px;
+    height: 170px;
+    /* border: 2px solid aqua; */
+}
+.first-div p{
+    color: #ffffffba;
+    margin-top: 20px;
+}
+.secind-div{
+    width: 180px;
+    height: 240px;
+    /* border: 2px solid antiquewhite; */
+}
+.third-div{
+    width: 180px;
+    height: 240px;
+    /* border: 2px solid antiquewhite; */
+}
+.secind-div p, .third-div p{
+    font-size: 23px;
+    color: #ffffffba;
+    margin-top: 10px;
+}
+
+
+
+.hr{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: #ffffffba;
+}
+.reserved{
+    margin-left: 550px;
+    margin-top: 15px;
+    color: #ffffffba;
+}
+
+
 
 
 
@@ -448,7 +504,7 @@ td, th{
     }
     .cm input{
         width: 120%;
-        margin-left: ;
+       
     }
     /* Meet sections  */
     .meet-text{
@@ -466,6 +522,20 @@ td, th{
         width: 350px;
         height: 1520px;
     }
-  
+    .footer{
+        width: 350px;
+        height: 740px;
+    }
+    .footer-section{
+        flex-direction: column;
+        width: 350px;
+    }
+    .hr{
+        margin-top: 380px;
+    }
+    .reserved{
+        margin-left: 0;
+    }
+   
    
 }
